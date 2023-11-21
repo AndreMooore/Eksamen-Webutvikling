@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #grid-container {
   display: grid;
   grid-template-areas: "header" "main" "footer";
@@ -70,6 +71,10 @@ header nav {
   font-weight: bold;
 }
 
+.flex-section p {
+  padding: 0 4rem;
+}
+
 #read {
   display: inline-block;
   background-color: #e6bd43;
@@ -85,4 +90,23 @@ header nav {
 #read:hover {
   background-color: black;
   color: #e6bd43;
+}
+
+#subheading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 10rem 0 10rem;
+}
+
+#subheading h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#gul {
+  display: flex;
+  background-color: #e6bd43;
+  flex-direction: row;
+  justify-content: space-between;
 }
