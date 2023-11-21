@@ -65,9 +65,12 @@ header nav {
 .flex-section {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
   padding-right: 5rem;
   padding-left: 5rem;
+  background-image: url("img/bakgrunn.jpg");
+  background-size: cover;
 }
 
 .flex-section h1 {
@@ -75,7 +78,19 @@ header nav {
   font-weight: bold;
 }
 
-.flex-section a {
-  background-color: #e6bd43; center
+#read {
+  display: inline-block;
+  background-color: #e6bd43;
+  align-self: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 1rem;
+}
 
+#read:hover {
+  background-color: black;
+  color: #e6bd43;
 }
