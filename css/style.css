@@ -58,7 +58,7 @@ header nav {
 
 .navlink {
   text-decoration: none;
-  color: black;
+  color: grey;
   font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ header nav {
   font-weight: bold;
 }
 
-.navlink:active {
+.navlink.active {
   text-decoration: underline;
   text-decoration-color: #e6bd43;
   font-weight: bold;
