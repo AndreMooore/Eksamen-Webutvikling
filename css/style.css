@@ -111,6 +111,45 @@ main {
   padding: 0 4rem;
 }
 
+#artikkelbrand {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  flex-grow: 1;
+  max-width: 692px;
+}
+
+#seksjonstorbilde {
+  height: 100%;
+}
+
+#storbilde {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+
+#storbilde img {
+  flex-grow: 3;
+  max-width: 692px;
+}
+
 #read {
   display: flex;
   background-color: #e6bd43;
