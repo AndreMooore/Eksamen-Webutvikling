@@ -371,6 +371,9 @@ footer section a {
       "footer";
   }
 
+  nav {
+    flex-direction: column;
+  }
   .navbar {
     flex-direction: column;
   }
