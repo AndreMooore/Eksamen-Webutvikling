@@ -111,9 +111,37 @@ main {
   padding: 0 4rem;
 }
 
-#artikkelbrand {
+.gulstripe {
+  text-decoration: underline #e6bd43;
+  margin: 3rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#knapper {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+#knapper a {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  text-decoration: none;
+  padding: 1rem;
+  border-style: ridge;
+  border-color: black;
+  color: black;
+}
+
+#knapper a:hover {
+  background-color: black;
+  color: #e6bd43;
+}
+
+.bilder {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-direction: row;
   margin: 1rem;
 }
 
@@ -127,12 +155,7 @@ main {
 }
 
 .image-container img {
-  flex-grow: 1;
   max-width: 692px;
-}
-
-#seksjonstorbilde {
-  height: 100%;
 }
 
 #storbilde {
@@ -142,7 +165,7 @@ main {
   text-align: center;
   align-content: flex-start;
   flex-wrap: wrap;
-  margin: 1rem;
+  margin: 4rem;
 }
 
 #storbilde img {
@@ -205,6 +228,7 @@ main {
   padding: 7rem;
   font-size: 4rem;
   font-weight: bold;
+  background-size: 100%;
 }
 
 #gul section {
@@ -383,5 +407,9 @@ footer section a {
   #newsletter section {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .bilder {
+    flex-direction: column;
   }
 }
