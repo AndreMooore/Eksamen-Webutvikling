@@ -134,6 +134,49 @@ main {
   color: black;
 }
 
+#aboutus {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(/img/office-865091_1280.jpg);
+  background-size: cover;
+}
+
+#aboutusinfo {
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#aboutusinfo {
+  grid-column: 2;
+}
+
+#aboutusinfo p {
+  font-size: 1rem;
+}
+
+#aboutusinfo h1 {
+  font-size: 2.5rem;
+}
+
+#aboutusinfo a {
+  background-color: #e6bd43;
+
+  padding: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+#aboutusinfo a:hover {
+  background-color: black;
+  color: #e6bd43;
+}
 #knapper a:hover {
   background-color: black;
   color: #e6bd43;
@@ -390,16 +433,15 @@ footer section a {
       "nav"
       "main"
       "footer";
+    grid-template-columns: 1fr;
   }
 
   nav {
     flex-direction: column;
   }
+
   .navbar {
     flex-direction: column;
-  }
-  main {
-    grid-template-columns: 100%;
   }
 
   #gul {
