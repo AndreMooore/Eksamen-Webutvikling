@@ -112,7 +112,8 @@ main {
 }
 
 .gulstripe {
-  text-decoration: underline #e6bd43;
+  border-bottom-style: solid;
+  border-bottom-color: #e6bd43;
   margin: 3rem;
   font-size: 3.5rem;
   font-weight: bold;
@@ -158,6 +159,10 @@ main {
   max-width: 692px;
 }
 
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
 #storbilde {
   display: flex;
   flex-direction: column;
@@ -171,6 +176,7 @@ main {
 #storbilde img {
   flex-grow: 3;
   max-width: 692px;
+  width: 692px;
 }
 
 #read {
@@ -229,6 +235,21 @@ main {
   font-size: 4rem;
   font-weight: bold;
   background-size: 100%;
+}
+
+#development {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+#development img {
+  display: flex;
+  width: 692px;
+  max-width: 692px;
+}
+
+#development img:hover {
+  transform: scale(1.1);
 }
 
 #gul section {
